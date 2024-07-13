@@ -73,10 +73,12 @@ h1,h2,h3{
 }
 .header ul li{
   margin-left: 20px;
+  cursor: pointer;
 }
 
 .header ul li a:hover{
   color: #f27059
+  
 }
 
 .header ul li a svg{
@@ -105,7 +107,6 @@ h1,h2,h3{
 .close{
   border: none;
   color: #c72104;
-  width: 15px;
 
 }
 

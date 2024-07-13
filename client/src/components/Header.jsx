@@ -19,7 +19,7 @@ const Header = () => {
   return (
     <header className="header">
       <div className="logo">
-        <h2>Fatma</h2>
+        <h2>NotePad</h2>
       </div>
       <ul>
         {user ? (
@@ -30,11 +30,12 @@ const Header = () => {
                 Not oluştur
               </Link>
             </li>
-            <li>
-              <button className="btn" onClick={onLogout}>
-                <FaSignOutAlt />
-                Çıkış Yap
-              </button>
+            <li onClick={onLogout}>
+              <a href=""><FaSignOutAlt />
+              Çıkış Yap</a>
+              {/* <button  onClick={onLogout}>
+                
+              </button> */}
             </li>
           </>
         ) : (

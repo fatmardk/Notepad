@@ -37,7 +37,7 @@ const Dashboard = () => {
     <>
     <section className='heading'>
       <h1>Merhaba {user && user.user.username}</h1>
-      <p>Not ekle</p>
+      <p>Not ekleyebilir var olan notlarını görebilirsin</p>
     </section>
     <NotForm />
     <section className='content'>
