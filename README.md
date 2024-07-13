@@ -32,5 +32,4 @@ This project is a note-taking application built using the MERN stack (MongoDB, E
 4. **Edit / Delete Notes:**
    - Use the edit button to modify a note and the delete button to remove a note.
 
-## Project Structure
 
